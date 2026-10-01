@@ -1,9 +1,9 @@
 cask "klok" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.0.7"
-  sha256 arm:   "00672df132c2cb344b06152a6f3835432ae90fa7e282121cb476a6234ac5f800",
-         intel: "9c273946c4cf6bb9bdf269940b6b65336211f48364c537ed42b23797a7444973"
+  version "0.0.8"
+  sha256 arm:   "f968b401ec8e7d9a8ce7c7fbe17e059539f6b1c1e72cbc170f9e9dda182b8bd8",
+         intel: "ad5a118b37358d68f2b1b753739e1648ae8e0120a041df7676bc1c0bab824d06"
 
   # Klok's own URL rather than the release host's, so the cask keeps working if the files ever move.
   url "https://app.getklok.io/downloads/mac/Klok-#{version}-#{arch}.dmg"
